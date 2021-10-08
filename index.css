@@ -1,0 +1,80 @@
+html,body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0; 
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    text-shadow: 1px 4px rgb(31 140 84 / 62%), -2px -3px rgb(189 13 13 / 93%);
+}
+
+
+span {
+    color: #fff;
+    text-transform: uppercase;
+}
+body {
+    
+    /* background styling */
+    background:  
+    linear-gradient(to bottom,
+    rgba(0, 0, 0, 0.63), 
+    rgba(0, 0, 0, 0.45)),
+    url(../img/welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.container  {
+    margin: 5rem;
+    display: block;
+    text-align: center;
+
+}
+
+img {
+    
+    margin: 0;
+    width: 90vw;
+
+}
+
+.btn {
+
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #000;
+    background-color: rgb(85, 150, 200);
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 100px;
+    text-align: center;
+    position: relative;
+    bottom: 5rem;
+
+}
+.btn:hover {
+    background-color: #2f7ec4;
+    color: #fff
+}
+
+#whatsapp {
+	position: fixed;
+    right: 20px;
+    width: 50px;
+    bottom: 20px;
+    z-index: 1000;
+}
+
+#whatsapp img {
+	width: 100%;
+	height: auto;
+}
